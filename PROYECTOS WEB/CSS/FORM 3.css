@@ -1,0 +1,50 @@
+@charset "UTF-8";
+
+body {
+  background-color: grey;
+}
+.cuadro {
+  width: 500px;
+  height: 500px;
+  background-color: pink;
+  position: absolute;
+  left: 30%;
+  padding: 20px;
+  overflow: scroll;
+}
+h1 {
+  background-color: pink;
+  height: 80px;
+  padding-top: 30px;
+  text-align: center;
+  font-size: 50px;
+}
+.obli {
+  text-align: center;
+  font-weight: bold;
+  color: red;
+}
+span {
+  font-weight: bold;
+  font-size: 30px;
+  color: orange;
+}
+.provin {
+  padding-left: 40px;
+}
+.envi {
+  background-color: green;
+  font-weight: bold;
+  position: absolute;
+  left: 100px;
+  padding: 10px;
+  font-size: 20px;
+}
+.borra {
+  background-color: red;
+  font-weight: bold;
+  position: absolute;
+  left: 350px;
+  padding: 10px;
+  font-size: 20px;
+}

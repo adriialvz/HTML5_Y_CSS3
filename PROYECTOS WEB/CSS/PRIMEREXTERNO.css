@@ -1,0 +1,29 @@
+@charset "UTF-8";
+
+body {
+  background-color: grey;
+}
+table {
+  text-align: center;
+  border: 4px outset black;
+  position: absolute;
+  top: 200px;
+  left: 120px;
+}
+td {
+  border: 2px solid black;
+  font-weight: bold;
+  font-size: 50px;
+  padding-left: 30px;
+  padding-right: 30px;
+}
+.blanco {
+  background-color: white;
+}
+.rojo {
+  color: red;
+}
+.azul {
+  background-color: yellow;
+  color: blue;
+}

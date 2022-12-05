@@ -1,0 +1,78 @@
+@charset "UTF-8";
+
+
+body {
+  background-color: grey;
+}
+h1 {
+  background-color: yellow;
+  text-align: center;
+  height: 70px;
+  padding-top: 30px;
+  font-size: 40px;
+}
+.uno {
+  border: 3px solid red;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-left: 40px;
+  padding-right: 40px;
+  position: absolute;
+  left: 20%;
+  background-color: aqua;
+  font-weight: bold;
+  text-decoration: none;
+}
+.dos {
+  border: 3px solid red;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-left: 40px;
+  padding-right: 40px;
+  position: absolute;
+  left: 40%;
+  background-color: aqua;
+  font-weight: bold;
+  text-decoration: none;
+}
+  .tres {
+  border: 3px solid red;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-left: 40px;
+  padding-right: 40px;
+  position: absolute;
+  left: 60%;
+  background-color: aqua;
+  font-weight: bold;
+  text-decoration: none;
+}
+.titu {
+  background-color: orange;
+  text-align: center;
+  font-weight: bold;
+  font-size: 30px;
+}
+.info {
+  font-weight: bold;
+
+}
+.pie {
+  background-color: white;
+  text-align: center;
+  font-weight: bold;
+  font-size: 30px;
+  position: absolute;
+  top:700px;
+  width: 99%;
+
+}
+a:link{
+  color: black;
+}
+a:visited {
+  color: black;
+}
+a:hover {
+  color: red;
+}

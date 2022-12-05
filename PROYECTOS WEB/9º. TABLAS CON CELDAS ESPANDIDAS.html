@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>TABLAS CON CELDAS ESPANDIDAS</title>
+  <style media="screen">
+
+          body {
+              background-color: grey;
+    }
+          .nav {
+              background-color: yellow;
+              text-align: center;
+              font-weight: bold;
+              height: 30px;
+              padding-top: 10px;
+              font-size: 20px;
+          }
+          table {
+            border: 4px outset red;
+            width: 30%;
+            height: 200px;
+            position: absolute;
+            top: 200px;
+            left: 35%;
+            background-color: aqua;
+          }
+          td {
+            border: 2px solid black;
+          }
+          .uno {
+            text-align: center;
+            font-weight: bold;
+            font-size: 30px;
+          }
+          .dos {
+            font-weight: bold;
+            width: 100px;
+          }
+
+  </style>
+</head>
+<body>
+
+  <div class="nav">
+          TABLA CON CELDAS ESPANDIDAS
+  </div>
+
+  <table>
+        <tr>
+          <td colspan="2" class="uno">MÓDULOS</td>
+        </tr>
+
+        <tr>
+          <td rowspan="2" class="dos">1º. CURSO</td>
+          <td>Programación</td>
+        </tr>
+        <tr>
+          <td>BBDD</td>
+        </tr>
+
+        <tr>
+          <td rowspan="2" class="dos">2º. CURSO</td>
+          <td>Lenguaje De Marcas</td>
+        </tr>
+        <tr>
+          <td>Aplicaciones Web</td>
+        </tr>
+  </table>
+
+</body>
+</html>

@@ -1,0 +1,51 @@
+@charset "UTF-8";
+
+body {
+  background-color: grey;
+}
+h1 {
+  text-align: center;
+  background-color: aqua;
+  height: 70px;
+  padding-top: 30px;
+}
+.cuadro {
+  width: 500px;
+  height: 500px;
+  background-color: aqua;
+  position: absolute;
+  top: 200px;
+  left: 400px;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+.parra {
+  font-weight: bold;
+  font-size: 20px;
+}
+.envi {
+  width: 200px;
+  height: 100px;
+  background-color: green;
+  font-weight: bold;
+  font-size: 20px;
+  position: absolute;
+  left: 50px;
+}
+.borra {
+  width: 200px;
+  height: 100px;
+  background-color: red;
+  font-weight: bold;
+  font-size: 20px;
+  position: absolute;
+  left: 300px;
+}
+.fuera {
+  background-color: orange;
+  width: 300px;
+  height: 40px;
+  position: absolute;
+  top: 450px;
+  left: 115px;
+}

@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>MAPEADO</title>
+  <style media="screen">
+
+    body {
+      background-color: grey;
+    }
+
+    h1 {
+      background-color: green;
+      text-align: center;
+    }
+
+    img {
+      position: absolute;
+      top: 200px;
+      left: 25%;
+    }
+  </style>
+
+</head>
+<body>
+<h1>TOCA LOS 4 COLORES DE LA IMAGEN</h1>
+
+  <img usemap="#colorido" src="IMAGENES/cuadrado.png" alt="">
+  <map name="colorido">
+      <area shape="rect" coords="11,9,333,257" href="https://www.google.es" alt="" target="_blank">
+      <area shape="rect" coords="354,12,674,262" href="https://www.as.com" alt="" target="_blank">
+      <area shape="rect" coords="15,285,238,526" href="https://www.apple.es" alt="" target="_blank">
+      <area shape="rect" coords="356,285,668,527" href="https://www.amazon.es" alt="" target="_blank">
+  </map>
+
+</body>
+</html>

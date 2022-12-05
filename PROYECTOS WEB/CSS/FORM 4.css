@@ -1,0 +1,41 @@
+@charset "UTF-8";
+
+body {
+  background-color: grey;
+}
+h1 {
+  background-color: yellow;
+  font-size: 40px;
+  text-align: center;
+  height: 70px;
+  padding-top: 25px;
+  border-radius: 20px;
+}
+.datos {
+  font-weight: bold;
+  font-size: 20px;
+  color: aqua;
+}
+.preguntas {
+  font-weight: bold;
+  font-size: 20px;
+  color: aqua;
+}
+.enviar {
+  font-weight: bold;
+  background-color: green;
+  position: absolute;
+  left: 20%;
+  padding: 20px;
+  font-size: 20px;
+  border-radius: 20px;
+}
+.borrar {
+  font-weight: bold;
+  background-color: red;
+  position: absolute;
+  left: 50%;
+  padding: 20px;
+  font-size: 20px;
+  border-radius: 20px;
+}

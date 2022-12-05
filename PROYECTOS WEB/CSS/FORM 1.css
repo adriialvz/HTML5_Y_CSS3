@@ -1,0 +1,46 @@
+@charset "UTF-8";
+
+body {
+  background-color: grey;
+}
+h1 {
+  text-align: center;
+  background-color: red;
+  font-size: 40px;
+}
+.caja {
+  background-color: aqua;
+  width: 700px;
+  height: 600px;
+  position: absolute;
+  left: 25%;
+  top: 150px;
+  padding-left: 50px;
+  padding-right: 50px;
+}
+.color {
+  color: red;
+  font-weight: bold;
+  font-size: 30px;
+}
+.envi {
+  background-color: green;
+  font-weight: bold;
+  width: 200px;
+  height: 50px;
+  position: absolute;
+  top: 540px;
+  left: 100px;
+}
+.borra {
+  background-color: red;
+  font-weight: bold;
+  width: 200px;
+  height: 50px;
+  position: absolute;
+  top: 540px;
+  left: 500px;
+}
+.foco:focus {
+  background-color: yellow;
+}
