@@ -1,0 +1,49 @@
+@charset "UTF-8";
+.ini {
+  color: black;
+  margin-left: 20%;
+  text-decoration: none;
+  font-weight: bold;
+  border-radius: 20px;
+  border: 1.75px solid;
+  padding: 6px;
+}
+.softwa {
+  color: black;
+  text-decoration: none;
+  font-weight: bold;
+  margin-left: 30px;
+  border-radius: 20px;
+  border: 1.75px solid;
+  padding: 6px;
+}
+
+.hardwa {
+  color: black;
+  text-decoration: none;
+  font-weight: bold;
+  margin-left: 30px;
+  border-radius: 20px;
+  border: 1.75px solid;
+  padding: 6px;
+}
+.contact {
+  color: black;
+  text-decoration: none;
+  font-weight: bold;
+  margin-left: 30px;
+  border-radius: 20px;
+  border: 1.75px solid;
+  padding: 6px;
+}
+.nav {
+  background: -moz-linear-gradient(-45deg, rgba(235,233,249,1) 31%, rgba(233,230,248,1) 35%,
+  rgba(218,210,240,1) 63%, rgba(216,208,239,1) 66%, rgba(206,199,236,1) 78%,
+  rgba(193,191,234,1) 100%);
+  background: -webkit-linear-gradient(-45deg, rgba(235,233,249,1) 31%, rgba(233,230,248,1) 35%,
+  rgba(218,210,240,1) 63%, rgba(216,208,239,1) 66%, rgba(206,199,236,1) 78%,
+  rgba(193,191,234,1) 100%);
+  height: 35px;
+  padding-top: 15px;
+  margin-bottom: 20px;
+}

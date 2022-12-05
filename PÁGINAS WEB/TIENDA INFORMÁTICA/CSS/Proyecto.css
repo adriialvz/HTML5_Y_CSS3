@@ -1,0 +1,227 @@
+@charset "utf-8";
+
+body {
+	background-image: url(Imagenes/images.jpg);
+	background-repeat: no-repeat;
+}
+
+#barra {
+	height: 60px;
+	background-image: url(Imagenes/color-815552_960_720.png);
+	margin: 10px 50px 50px 50px;
+	padding-left: 50px;
+	padding-top: 40px;
+	border: 8px solid #6179b0;
+	
+					
+}
+
+.none {
+	text-decoration: none;
+	font-weight: bold;
+	color: black;
+}
+
+#barra .inline {
+	display: inline;
+	border: 3px solid #8E8E8E;
+	margin: 20px;
+	padding: 20px;
+	background-image: url(Imagenes/images.jpg);
+	font-weight: bold;
+	
+	
+}
+
+.tienda {
+	width: 1692px;
+	height: 200px;
+	margin-left: 53px;
+	border: 6px solid #8E8E8E;
+	background-image:url(Imagenes/ordenador-810x537.jpg);
+	font-weight: bold;
+	font-size: 50px;
+	margin-top: 20px;
+	color:lightblue;
+	padding-left: 70px;
+}
+.tiending {
+	width: 1717px;
+	height: 200px;
+	margin-left: 53px;
+	border: 6px solid #8E8E8E;
+	background-image:url(Imagenes/ordenador-810x537.jpg);
+	font-weight: bold;
+	font-size: 50px;
+	margin-top: 40px;
+	color:lightblue;
+	padding-left: 70px;
+}
+
+.inicio {
+	float:right;
+	display: inline;
+	border: 3px solid #8E8E8E;
+	margin: -22px 10px 10px 10px;
+	padding: 20px 10px 20px 40px;
+	font-weight: bold;
+	width: 130px;
+	height: 15px;				
+	background-image:url(Imagenes/60576372-Icono-de-usuario-Aprobar-aceptar-cuenta-Avatar-Perfil-ilustraci-n-vectorial-Glifo-Foto-de-archivo.jpg);
+	background-repeat: no-repeat;
+	background-position: 10px 10px;
+	text-align: center;
+	background-color: white;
+}
+
+.carro {
+	float:right;
+	display: inline;
+	border: 3px solid #8E8E8E;
+	margin: -22px 10px 10px 10px;
+	padding:10px 10px 30px 40px;
+	font-weight: bold;
+	width: 130px;
+	height: 15px;				
+	background-image: url(Imagenes/supermercado-carrito-de-la-compra_318-39788.jpg);
+	background-repeat: no-repeat;
+	background-position: 10px 7px;
+	text-align: center;
+	background-color: white;
+
+}
+
+ #izquierda a {
+	display: block;
+	padding-bottom: 40px;
+	padding-top: 40px;
+	text-align: center;
+	text-decoration: none;
+	font-size: 15px;
+	padding-left: 50px; 
+
+}
+
+#izquierda {
+	position: fixed;
+	width: 200px;
+	height: 685px;
+	background-color: blue;
+	margin: 0px 50px 0px 50px;
+	background-image: url(Imagenes/color-815552_960_720.png);
+	background-repeat: no-repeat;
+	border: 6px solid #6179B0;
+}
+
+#izquierda a:link {
+	color: black;
+	font-weight: bold;
+}
+
+#izquierda a:hover {
+	color: cornflowerblue;
+	background-color:ghostwhite;
+}
+
+.cont1 {
+	background-image:url(Imagenes/el-equipo-de-pc-con-monitor_318-50338.jpg);
+	background-repeat: no-repeat;
+	background-position: 15px 30px;
+	border-top: 3px solid #6179b0;
+}
+
+.cont2 {
+	background-image:url(Imagenes/microchip-ordenador_318-39307.jpg);
+	background-repeat: no-repeat;
+	background-position: 15px 30px;
+}
+
+.cont3 {
+	background-image:url(Imagenes/smartphone-iphone_318-30998.jpg);
+	background-repeat: no-repeat;
+	background-position: 17px 23px;
+					
+}
+
+.cont4 {
+	background-image: url(Imagenes/tablet-tool_318-49867.jpg);
+	background-repeat: no-repeat;
+	background-position: 17px 23px;
+					
+}
+
+.cont5 {
+	background-image:url(Imagenes/images.png);
+	background-repeat: no-repeat;
+	background-position: 15px 30px;
+					
+}
+
+.cont6 {
+	background-image: url(Imagenes/descarga.png);
+	background-repeat: no-repeat;
+	background-position: 15px 30px;
+}
+
+.menu1 {
+	text-align: center;
+	background-image: url(Imagenes/images.jpg);
+	padding: 10px 0px;
+	margin: 10px 10px;
+	border: 3px solid #8E8E8E;
+}
+				
+#derecho {
+	float: right;
+	width: 200px;
+	height: 1060px;
+	background-color: white;
+	margin: 0px 50px 0px 120px;
+	border: 6px solid #6179B0;
+				
+}
+.cocacola {
+	width: 200px;
+	height: 260px;
+	background-image: url(Imagenes/descarga.jpg);
+	border-bottom: 5px solid #FFFFFF;
+	border-top: 5px solid #FFFFFF;
+					
+}
+				
+.mc {
+	width: 200px;
+	height: 260px;
+	background-image:url(Imagenes/GPPP-agosto10.jpg);
+	border-bottom: 5px solid #FFFFFF;
+					
+}
+.face {
+	width: 200px;
+	height: 260px;
+	background-image:url(Imagenes/facebook.jpg);
+	border-bottom: 5px solid #FFFFFF;
+					
+}
+				
+.google {
+	width: 200px;
+	height: 260px;
+	background-image:url(Imagenes/chrome_bloqueador_anuncios.jpg);
+	border-bottom: 5px solid #FFFFFF;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

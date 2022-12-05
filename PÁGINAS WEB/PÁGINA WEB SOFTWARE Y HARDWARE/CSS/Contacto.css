@@ -1,0 +1,24 @@
+@charset "UTF-8";
+form {
+  margin-left: 50px;
+  margin-right: 50px;
+}
+#envio {
+  background-color: green;
+  margin-left: 20%;
+  padding: 5px 30px;
+}
+#borrar {
+  background-color: red;
+  margin-left: 30%;
+  padding: 5px 30px;
+}
+#domi {
+  margin-right: 30px;
+}
+#num {
+  margin-right: 30px;
+}
+legend{
+  font-weight: bold;
+}

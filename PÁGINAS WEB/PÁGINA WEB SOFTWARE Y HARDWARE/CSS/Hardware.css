@@ -1,0 +1,19 @@
+@charset "UTF-8";
+.segundo {
+  margin-left: 25%;
+  margin-right: 25%;
+  padding: 20px;
+  background: -moz-linear-gradient(-45deg, rgba(235,233,249,1) 31%, rgba(233,230,248,1) 35%,
+  rgba(218,210,240,1) 63%, rgba(216,208,239,1) 66%, rgba(206,199,236,1) 78%,
+  rgba(193,191,234,1) 100%);
+  background: -webkit-linear-gradient(-45deg, rgba(235,233,249,1) 31%, rgba(233,230,248,1) 35%,
+  rgba(218,210,240,1) 63%, rgba(216,208,239,1) 66%, rgba(206,199,236,1) 78%,
+  rgba(193,191,234,1) 100%);
+  height: 460px;
+  overflow: scroll;
+
+}
+.hard {
+  font-weight:bold;
+  text-decoration:underline;
+}
